@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hahn Staffing — Good People. Good Work. Real Second Chances. | New Bern &amp; Eastern NC</title>
+<meta name="description" content="Hahn Staffing connects hard-working people — including those earning a fresh start — with good local businesses across New Bern and Eastern North Carolina. Faith-driven, character-first, and you always talk to a real person." />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="theme-color" content="#14243f" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A4%9D%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --navy:#14243f; --navy-2:#1d3357; --slate:#33456a; --amber:#e0a83e; --amber-d:#c88f26;
+    --cream:#f7f3ea; --paper:#fffdf8; --ink:#1a2233; --muted:#5d6b82; --line:#e0dac8; --good:#2e9e6b;
+    --sans:"Inter",system-ui,-apple-system,sans-serif; --serif:"Fraunces",Georgia,serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);background:var(--cream);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.12;letter-spacing:-.01em}
+  a{color:inherit}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 clamp(1.15rem,4vw,2rem)}
+  .eyebrow{text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:800;color:var(--amber-d)}
+  .btn{display:inline-flex;align-items:center;gap:.5rem;font-weight:700;font-size:.98rem;padding:.85rem 1.6rem;border-radius:10px;text-decoration:none;transition:transform .16s ease,box-shadow .22s ease,background .2s,border-color .2s}
+  .btn-amber{background:linear-gradient(180deg,var(--amber),var(--amber-d));color:#241800;box-shadow:0 10px 26px -14px rgba(200,143,38,.8)}
+  .btn-amber:hover{transform:translateY(-2px)}
+  .btn-ghost{border:2px solid rgba(255,255,255,.4);color:#fff}
+  .btn-ghost:hover{border-color:#fff}
+  .btn-navy{background:var(--navy);color:#fff}
+  .btn-navy:hover{background:var(--navy-2);transform:translateY(-2px)}
+  a:focus-visible,button:focus-visible,.btn:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:8px}
+
+  header{position:sticky;top:0;z-index:30;background:rgba(20,36,63,.94);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:flex;align-items:center;gap:.55rem;color:#fff;font-family:var(--serif);font-weight:700;font-size:1.3rem}
+  .nav .btn{padding:.5rem 1.1rem;font-size:.85rem}
+
+  .hero{background:radial-gradient(90% 110% at 50% -10%,rgba(224,168,62,.16),transparent 60%),linear-gradient(180deg,var(--navy),var(--navy-2));color:#fff;text-align:center;padding:clamp(3.4rem,8vw,5.5rem) 0}
+  .hero .badge{display:inline-block;background:rgba(224,168,62,.16);border:1px solid rgba(224,168,62,.5);color:var(--amber);font-weight:700;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;padding:.4rem 1rem;border-radius:999px;margin-bottom:1.3rem}
+  .hero h1{font-size:clamp(2.6rem,7vw,4.6rem);color:#fff}
+  .hero h1 .amber{color:var(--amber)}
+  .hero .tag{font-family:var(--serif);font-style:italic;color:var(--amber);font-size:clamp(1.3rem,3.4vw,1.9rem);margin-top:.2rem}
+  .hero p.lead{color:#cdd8ea;font-size:clamp(1.05rem,2vw,1.2rem);max-width:56ch;margin:1.4rem auto 2rem}
+  .hero .cta-row{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap}
+  .hero .soon{margin-top:1.8rem;font-size:.82rem;color:#9fb0cc}
+
+  section{padding:clamp(3rem,7vw,4.6rem) 0}
+  .head{max-width:640px;margin:0 auto 2.4rem;text-align:center}
+  .head .eyebrow{display:block;margin-bottom:.6rem}
+  .head h2{font-size:clamp(2rem,5vw,2.9rem);color:var(--navy)}
+  .head p{color:var(--muted);margin-top:.6rem}
+
+  .paths{display:grid;grid-template-columns:1fr 1fr;gap:1.3rem}
+  @media(max-width:720px){.paths{grid-template-columns:1fr}}
+  .path{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:2rem;box-shadow:0 14px 34px -26px rgba(20,36,63,.5)}
+  .path .ic{font-size:2.2rem}
+  .path h3{font-size:1.7rem;color:var(--navy);margin:.5rem 0 .5rem}
+  .path p{color:var(--muted);font-size:.98rem;margin-bottom:1.2rem}
+  .path ul{list-style:none;margin:0 0 1.4rem;padding:0}
+  .path li{position:relative;padding-left:1.5rem;margin-bottom:.5rem;color:var(--ink);font-size:.95rem}
+  .path li::before{content:"✓";position:absolute;left:0;color:var(--good);font-weight:800}
+
+  .why{background:var(--navy);color:#fff;border-top:4px solid var(--amber);border-bottom:4px solid var(--amber)}
+  .why .head h2{color:#fff}.why .head p{color:#cdd8ea}
+  .vals{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.1rem}
+  .val{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:1.5rem}
+  .val .ic{font-size:1.6rem}
+  .val h3{font-family:var(--sans);font-weight:800;font-size:1.05rem;color:var(--amber);margin:.5rem 0 .3rem}
+  .val p{color:#cdd8ea;font-size:.92rem}
+
+  .chance{background:var(--paper);border:1px solid var(--line);border-left:6px solid var(--amber);border-radius:16px;max-width:820px;margin:0 auto;padding:clamp(1.6rem,4vw,2.4rem)}
+  .chance h2{font-size:clamp(1.7rem,4vw,2.4rem);color:var(--navy);margin-bottom:.8rem}
+  .chance p{color:var(--ink);margin-bottom:.9rem}
+  .chance .pull{font-family:var(--serif);font-style:italic;font-size:1.2rem;color:var(--amber-d)}
+
+  .roles{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;max-width:820px;margin:0 auto}
+  .role{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:.5rem 1.1rem;font-weight:600;font-size:.9rem;color:var(--navy)}
+
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.1rem;counter-reset:s}
+  .step{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:1.5rem}
+  .step h3{font-family:var(--sans);font-size:1.05rem;font-weight:800;color:var(--navy);margin-bottom:.3rem}
+  .step h3::before{counter-increment:s;content:counter(s);display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--amber);color:#241800;font-size:.85rem;margin-right:.5rem;vertical-align:middle;font-family:var(--sans)}
+  .step p{color:var(--muted);font-size:.92rem}
+
+  .cta{background:linear-gradient(180deg,var(--navy-2),var(--navy));color:#fff;text-align:center}
+  .cta h2{color:#fff;font-size:clamp(2rem,5vw,2.9rem)}
+  .cta p{color:#cdd8ea;max-width:52ch;margin:.9rem auto 1.7rem}
+  .cta .cta-row{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap}
+
+  footer{background:#0f1c31;color:#9fb0cc;text-align:center;padding:2.4rem 0;font-size:.88rem}
+  footer .sdg{font-family:var(--serif);font-style:italic;color:var(--amber);margin-top:.5rem}
+  footer a{color:var(--amber);font-weight:600;text-decoration:none}
+  .legal{max-width:820px;margin:1.4rem auto 0;font-size:.76rem;color:#7c8aa6;line-height:1.6;border-top:1px solid rgba(255,255,255,.1);padding-top:1.1rem}
+
+  .fab{position:fixed;right:16px;bottom:16px;z-index:60;display:flex;gap:.5rem}
+  .fab a{display:inline-flex;align-items:center;gap:.4rem;font-weight:800;font-size:.9rem;padding:.7rem 1.1rem;border-radius:999px;text-decoration:none;box-shadow:0 10px 26px rgba(0,0,0,.3)}
+  .fab .t{background:linear-gradient(180deg,#2fbf71,#1f9d5b);color:#04220f}
+  .fab .c{background:linear-gradient(180deg,var(--amber),var(--amber-d));color:#241800}
+  @media(max-width:480px){.fab a span.lbl{display:none}}
+
+  /* best-in-class reveal (JS-gated, graceful) */
+  .js .reveal-init{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+  .js .reveal-init.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.js .reveal-init,.js .reveal-init.in{opacity:1 !important;transform:none !important;transition:none}a,button,.btn{transition:none}}
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#top">🤝 Hahn Staffing</a>
+      <a class="btn btn-amber" href="#connect">Let's talk</a>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap">
+      <span class="badge">New Bern &amp; Eastern NC · Faith-Driven Staffing</span>
+      <h1>Good people. <span class="amber">Good work.</span></h1>
+      <div class="tag">Real second chances.</div>
+      <p class="lead">We connect hard-working people — including folks earning a fresh start — with good local businesses across Eastern North Carolina. No faceless agency, no runaround. You always talk to a real person who remembers your name.</p>
+      <div class="cta-row">
+        <a class="btn btn-amber" href="#employers">🏢 I'm hiring →</a>
+        <a class="btn btn-ghost" href="#seekers">👋 I'm looking for work →</a>
+      </div>
+      <p class="soon">🚧 We're building right now — launching soon. Reach out and we'll be in touch.</p>
+    </div>
+  </section>
+
+  <!-- Two paths -->
+  <section id="paths">
+    <div class="wrap">
+      <div class="paths">
+        <div class="path reveal-init" id="employers">
+          <div class="ic">🏢</div>
+          <h3>For businesses hiring</h3>
+          <p>Short-staffed and tired of no-shows? We find you dependable people who show up and care — vetted by a real person, not an algorithm.</p>
+          <ul>
+            <li>Reliable, character-first candidates</li>
+            <li>We handle the screening &amp; the legwork</li>
+            <li>Local — we know Eastern NC</li>
+            <li>Honest and straightforward, always</li>
+          </ul>
+          <a class="btn btn-navy" href="#connect">Tell us who you need →</a>
+        </div>
+        <div class="path reveal-init" id="seekers">
+          <div class="ic">👋</div>
+          <h3>For job seekers</h3>
+          <p>Looking for honest work and people who'll give you a shot? We connect you with good local employers — and we treat everybody with respect.</p>
+          <ul>
+            <li>Free for you — always</li>
+            <li>Second chances welcome</li>
+            <li>Real people who root for you</li>
+            <li>Local jobs, close to home</li>
+          </ul>
+          <a class="btn btn-navy" href="#connect">Get on our list →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why us -->
+  <section class="why">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow" style="color:var(--amber)">The Hahn Difference</span>
+        <h2>Not your average staffing agency</h2>
+        <p>We built this the way we build everything — honest, personal, and rooted in faith.</p>
+      </div>
+      <div class="vals">
+        <div class="val reveal-init"><div class="ic">🤝</div><h3>Real people</h3><p>You talk to a Hahn, not a call center. We know our candidates and our businesses by name.</p></div>
+        <div class="val reveal-init"><div class="ic">❤️</div><h3>Character first</h3><p>Skills can be taught. We look for the heart, the work ethic, and the willingness to show up.</p></div>
+        <div class="val reveal-init"><div class="ic">📍</div><h3>Truly local</h3><p>Born and run in New Bern. We understand Eastern NC because we live here too.</p></div>
+        <div class="val reveal-init"><div class="ic">🙏</div><h3>Faith-driven</h3><p>We believe work is dignity, and everybody deserves a fair shot. To God be the glory.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Second chances -->
+  <section id="chances">
+    <div class="wrap">
+      <div class="chance reveal-init">
+        <span class="eyebrow">Why We Do This</span>
+        <h2>We believe in second chances</h2>
+        <p class="pull">"Somebody gave me a shot when I needed one. Now I get to do the same for others."</p>
+        <p>Hahn Staffing was born from a simple truth: good people sometimes need a fresh start — and good businesses need reliable people who'll show up and work hard. We bring the two together, with dignity on both sides.</p>
+        <p>We don't judge a person by their hardest chapter. We help hard workers rebuild, and we help local employers find team members who are grateful for the opportunity and ready to earn it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What we staff -->
+  <section>
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">What We Help Staff</span>
+        <h2>Good people for good work</h2>
+        <p>A range of roles across Eastern NC — and growing all the time. Don't see yours? Just ask.</p>
+      </div>
+      <div class="roles">
+        <span class="role">Hospitality &amp; food service</span>
+        <span class="role">Retail &amp; customer service</span>
+        <span class="role">Warehouse &amp; general labor</span>
+        <span class="role">Skilled trades &amp; helpers</span>
+        <span class="role">Cleaning &amp; facilities</span>
+        <span class="role">Landscaping &amp; grounds</span>
+        <span class="role">Admin &amp; front desk</span>
+        <span class="role">Drivers &amp; delivery</span>
+        <span class="role">Seasonal &amp; event help</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="why">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow" style="color:var(--amber)">How It Works</span>
+        <h2>Simple, human, honest</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal-init"><h3>Reach out</h3><p>Text or call and tell us what you need — whether you're hiring or looking for work. A real person answers.</p></div>
+        <div class="step reveal-init"><h3>We get to know you</h3><p>Businesses tell us the role and the fit. Job seekers tell us their story and their goals. No cold forms.</p></div>
+        <div class="step reveal-init"><h3>We make the match</h3><p>We connect the right person with the right business — and we check in to make sure it's working.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="cta" id="connect">
+    <div class="wrap">
+      <h2>Let's put good people to work 🤝</h2>
+      <p>Hiring, or looking for your next opportunity? Reach out — David answers personally, no pressure and no runaround.</p>
+      <div class="cta-row">
+        <a class="btn btn-amber" href="sms:+12526266236?&body=Hi%2C%20I%27m%20interested%20in%20Hahn%20Staffing%20%E2%80%94%20">💬 Text (252) 626-6236</a>
+        <a class="btn btn-ghost" href="tel:+12526266236">📞 Call us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div><strong style="color:#fff">🤝 Hahn Staffing</strong> — Good people. Good work. Real second chances. · New Bern, NC</div>
+      <div style="margin-top:.5rem">A <a href="https://hahntechcorp.com">Hahn Family of Companies</a> venture</div>
+      <div class="sdg">Soli Deo Gloria</div>
+      <p class="legal">Hahn Staffing is an equal-opportunity connector and does not discriminate on the basis of race, color, religion, sex, national origin, age, disability, or any other legally protected status. We connect candidates with independent employers; we do not guarantee employment, placement, wages, or hours, and hiring decisions are made by the employers. "Second chances" reflects our values, not a promise of any specific outcome. Building now — services and terms will be confirmed at launch.</p>
+    </div>
+  </footer>
+
+  <div class="fab">
+    <a class="t" href="sms:+12526266236?&body=Hi%2C%20I%27m%20interested%20in%20Hahn%20Staffing%20%E2%80%94%20"><span aria-hidden="true">💬</span> <span class="lbl">Text</span></a>
+    <a class="c" href="tel:+12526266236"><span aria-hidden="true">📞</span> <span class="lbl">Call</span></a>
+  </div>
+
+  <script>
+    document.documentElement.classList.add('js');
+    (function(){
+      var els = Array.prototype.slice.call(document.querySelectorAll('.reveal-init'));
+      function showAll(){ els.forEach(function(e){ e.classList.add('in'); }); }
+      if(!('IntersectionObserver' in window)){ showAll(); return; }
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+      }, { rootMargin:'0px 0px -8% 0px', threshold:0.04 });
+      els.forEach(function(e){ io.observe(e); });
+      setTimeout(showAll, 2500);
+    })();
+  </script>
+</body>
+</html>
